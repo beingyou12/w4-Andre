@@ -7,7 +7,7 @@ services:
         STUDENT_NIM: "00000076974"
     ports:
       # TODO
-      - 80:3000
+      - "80:3000"
     environment:
       NODE_ENV: development
     volumes:
