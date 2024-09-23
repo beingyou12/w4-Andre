@@ -7,4 +7,4 @@ services:
         STUDENT_NIM: "00000076974"
     ports:
       # TODO
-      - 80:80
+      - 80:3000
