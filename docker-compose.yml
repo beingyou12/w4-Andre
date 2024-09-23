@@ -8,3 +8,8 @@ services:
     ports:
       # TODO
       - 80:3000
+    environment:
+      NODE_ENV: development
+    volumes:
+      - .:/use/src/app
+    command: "npm run dev"
